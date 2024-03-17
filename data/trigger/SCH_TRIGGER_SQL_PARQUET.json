@@ -9,6 +9,12 @@
 					"referenceName": "PL_SQL_TO_PARQUET",
 					"type": "PipelineReference"
 				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "PL_SQL_TO_PARQUET_RDER_ITEMS",
+					"type": "PipelineReference"
+				}
 			}
 		],
 		"type": "ScheduleTrigger",
@@ -16,7 +22,7 @@
 			"recurrence": {
 				"frequency": "Day",
 				"interval": 1,
-				"startTime": "2024-03-17T05:24:00",
+				"startTime": "2024-03-16T11:24:00",
 				"timeZone": "Pacific Standard Time"
 			}
 		}
