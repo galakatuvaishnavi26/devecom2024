@@ -1,0 +1,25 @@
+{
+	"name": "EVE_TRIGGER_CSV_PARQUET",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_CSV_TO_PARQUET",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/raw/blobs/",
+			"blobPathEndsWith": ".csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/8e15719b-7753-4e30-95e9-7796cb095c3f/resourceGroups/rg_devecom/providers/Microsoft.Storage/storageAccounts/adlsrawdevecom26",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

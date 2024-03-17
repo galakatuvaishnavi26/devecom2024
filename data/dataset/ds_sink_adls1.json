@@ -1,0 +1,19 @@
+{
+	"name": "ds_sink_adls1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ds_sink_adls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "payment"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
