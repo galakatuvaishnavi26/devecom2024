@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevecomvg26"
+		},
+		"ls_source_sql_connectionString": {
+			"value": ""
+		},
+		"ds_sink_adls_accountKey": {
+			"value": ""
+		},
+		"ls_source_adls_accountKey": {
+			"value": ""
+		},
+		"ds_source_blob_connectionString": {
+			"value": ""
+		},
+		"ds_sink_adls_properties_typeProperties_url": {
+			"value": "https://adlssidevecom26.dfs.core.windows.net/"
+		},
+		"ls_source_adls_properties_typeProperties_url": {
+			"value": "https://adlsrawdevecom26.dfs.core.windows.net/"
+		},
+		"EVE_TRIGGER_CSV_PARQUET_properties_typeProperties_scope": {
+			"value": "/subscriptions/8e15719b-7753-4e30-95e9-7796cb095c3f/resourceGroups/rg_devecom/providers/Microsoft.Storage/storageAccounts/adlsrawdevecom26"
+		},
+		"ls_source_rest_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/sIiGMn/data"
+		}
+	}
+}
