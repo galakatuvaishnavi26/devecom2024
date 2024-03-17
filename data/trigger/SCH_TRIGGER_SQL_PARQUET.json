@@ -15,6 +15,12 @@
 					"referenceName": "PL_SQL_TO_PARQUET_RDER_ITEMS",
 					"type": "PipelineReference"
 				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "PL_REST_TO_PARQUET",
+					"type": "PipelineReference"
+				}
 			}
 		],
 		"type": "ScheduleTrigger",
