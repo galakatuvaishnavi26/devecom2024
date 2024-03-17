@@ -21,6 +21,12 @@
 					"referenceName": "PL_REST_TO_PARQUET",
 					"type": "PipelineReference"
 				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "PL_BLOB_TO_PARQUET",
+					"type": "PipelineReference"
+				}
 			}
 		],
 		"type": "ScheduleTrigger",
